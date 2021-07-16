@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./styles.css" />
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+    	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+		<title>BMI Calculator</title>
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<h1>BMI Calculator</h1>
+			</header>
+			<div class="info">
+				<label>
+					Weight:
+					<input type="number" class="data" name="weight" id="weight" autofocus/>
+				</label>
+				<label>
+					Height:
+					<input type="number" class="data" name="height" id="height"/>
+				</label>
+				<button id="calculate">Calculate</button>
+				<div class="result">
+					<label>
+						Result:
+						<input type="text" class="result" id="result" disabled/>
+					</label>
+					<h3 id="status"></h3>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="./script.js"></script>
+</html>
